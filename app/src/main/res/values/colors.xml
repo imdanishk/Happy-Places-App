@@ -10,4 +10,9 @@
 
     <!-- #2a4d69 • #4b86b4 • #adcbe3 • #e7eff6 • #63ace5 -->
 
+    <color name="colorPrimary">#4b86b4</color>
+    <color name="colorPrimaryDark">#2a4d69</color>
+    <color name="colorAccent">#adcbe3</color>
+
+
 </resources>
