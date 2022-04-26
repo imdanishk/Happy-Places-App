@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/iamda/StudioProjects/HappyPlacesApp/app/src/main/res/drawable/ic_action_add_24dp.xml" value="0.1225" />
+        <entry key="..\:/Users/iamda/StudioProjects/HappyPlacesApp/app/src/main/res/drawable/shape_button_rounded.xml" value="0.1" />
+        <entry key="..\:/Users/iamda/StudioProjects/HappyPlacesApp/app/src/main/res/drawable/shape_image_view_border.xml" value="0.1" />
         <entry key="..\:/Users/iamda/StudioProjects/HappyPlacesApp/app/src/main/res/layout/activity_add_happy_place.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/iamda/StudioProjects/HappyPlacesApp/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
       </map>
