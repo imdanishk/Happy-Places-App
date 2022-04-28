@@ -178,9 +178,9 @@ class AddHappyPlaceActivity : AppCompatActivity(), View.OnClickListener {
                     try {
                         val selectedImageBitmap = MediaStore.Images.Media.getBitmap(this.contentResolver, contentURI)
 
-                        //val saveImageToInternalStorage = saveImageToInternalStorage(selectedImageBitmap)
+                        val saveImageToInternalStorage = saveImageToInternalStorage(selectedImageBitmap)
 
-                        //Log.e("Save Image: ", "Path: $saveImageToInternalStorage")
+                        Log.e("Save Image: ", "Path: $saveImageToInternalStorage")
 
                         binding?.ivPlaceImage?.setImageBitmap(selectedImageBitmap)
                     }
@@ -193,15 +193,15 @@ class AddHappyPlaceActivity : AppCompatActivity(), View.OnClickListener {
             else if (requestCode == CAMERA){
                 val thumbnail: Bitmap = data!!.extras!!.get("data") as Bitmap
 
-                //val saveImageToInternalStorage = saveImageToInternalStorage(thumbnail)
+                val saveImageToInternalStorage = saveImageToInternalStorage(thumbnail)
 
-                //Log.e("Saved Image: ", "Path: $saveImageToInternalStorage")
+                Log.e("Saved Image: ", "Path: $saveImageToInternalStorage")
 
                 binding?.ivPlaceImage?.setImageBitmap(thumbnail)
             }
         }
     }
-/*
+
     private fun saveImageToInternalStorage(bitmap: Bitmap) : Uri{
         val wrapper = ContextWrapper(applicationContext)
         var file = wrapper.getDir(IMAGE_DIRECTORY, Context.MODE_PRIVATE)
@@ -219,6 +219,4 @@ class AddHappyPlaceActivity : AppCompatActivity(), View.OnClickListener {
 
         return Uri.parse(file.absolutePath)
     }
-
- */
 }
